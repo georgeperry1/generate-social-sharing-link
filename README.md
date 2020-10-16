@@ -13,8 +13,6 @@ This is a CLI for generating URLs for sharing content on social media. If you ne
 
 # Menu
 <!-- toc -->
-* [Generate Social Sharing Link CLI](#generate-social-sharing-link-cli)
-* [Menu](#menu)
 * [How it works](#how-it-works)
 * [Usage](#usage)
 * [Commands](#commands)
@@ -79,7 +77,7 @@ _See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/gener
 
 ## `generate-social-sharing-link help [COMMAND]`
 
-display help for generate-social-sharing-link
+Display help for generate-social-sharing-link
 
 ```
 USAGE

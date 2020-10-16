@@ -1,7 +1,7 @@
 {
   "name": "generate-social-sharing-link",
   "description": "CLI for generating URLs for sharing content on social media",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "George Perry @georgeperry1",
   "bin": {
     "generate-social-sharing-link": "./bin/run"
@@ -58,8 +58,7 @@
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\""
   },
   "types": "lib/index.d.ts"
 }
