@@ -13,7 +13,9 @@ This is a CLI for generating URLs for sharing content on social media. If you ne
 
 # Menu
 <!-- toc -->
-* [How it works](#howitworks)
+* [Generate Social Sharing Link CLI](#generate-social-sharing-link-cli)
+* [Menu](#menu)
+* [How it works](#how-it-works)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
@@ -46,19 +48,36 @@ Generate URL: https://twitter.com/intent/tweet?text=This%20is%20a%20great%20arti
 <!-- usage -->
 ```sh-session
 $ npm install -g generate-social-sharing-link
+$ generate-social-sharing-link COMMAND
+running command...
+$ generate-social-sharing-link (-v|--version|version)
+generate-social-sharing-link/1.0.0 darwin-x64 node-v10.19.0
+$ generate-social-sharing-link --help [COMMAND]
+USAGE
+  $ generate-social-sharing-link COMMAND
+...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`generate-social-sharing-link generate-link`](#generate-social-sharing-link-generate-link)
+* [`generate-social-sharing-link help [COMMAND]`](#generate-social-sharing-link-help-command)
 
-## Generate Link:
-```sh-session
+## `generate-social-sharing-link generate-link`
+
+Generate a URL to share on social media
+
+```
+USAGE
+  $ generate-social-sharing-link generate-link
+
+EXAMPLE
   $ generate-social-sharing-link generate-link
 ```
 
-_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v0.0.0/src/commands/generate-link.ts)_
+_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v1.0.0/src/commands/generate-link.ts)_
 
-## Help:
+## `generate-social-sharing-link help [COMMAND]`
 
 display help for generate-social-sharing-link
 
