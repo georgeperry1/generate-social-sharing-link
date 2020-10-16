@@ -13,8 +13,6 @@ This is a CLI for generating URLs for sharing content on social media. If you ne
 
 # Menu
 <!-- toc -->
-* [Generate Social Sharing Link CLI](#generate-social-sharing-link-cli)
-* [Menu](#menu)
 * [How it works](#how-it-works)
 * [Usage](#usage)
 * [Commands](#commands)
