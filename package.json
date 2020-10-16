@@ -1,7 +1,7 @@
 {
   "name": "generate-social-sharing-link",
   "description": "CLI for generating URLs for sharing content on social media",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "George Perry @georgeperry1",
   "bin": {
     "generate-social-sharing-link": "./bin/run"
