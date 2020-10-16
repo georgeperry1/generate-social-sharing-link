@@ -33,12 +33,12 @@ $ npm install -g generate-social-sharing-link
 - Enter the URL of content you want to share
 - Enter any supporting text (only Twitter supports this currently)
 
-![CLI example](https://github.com/georgeperry1/generate-social-sharing-link/assets/example.png "CLI example")
+![CLI example](https://github.com/georgeperry1/generate-social-sharing-link/raw/main/assets/example.png "CLI example")
 
 ## Step 3:
-Get URL: https://twitter.com/intent/tweet?text=This%20is%20a%20great%20article%20https%3A%2F%2Ftowardsdatascience.com%2Fhidden-features-of-chrome-devtools-33d9de390dc0
+Generate URL: https://twitter.com/intent/tweet?text=This%20is%20a%20great%20article%20https%3A%2F%2Ftowardsdatascience.com%2Fhidden-features-of-chrome-devtools-33d9de390dc0
 
-![Twitter result](https://github.com/georgeperry1/generate-social-sharing-link/assets/result.png "Twitter result")
+![Twitter result](https://github.com/georgeperry1/generate-social-sharing-link/raw/main/assets/result.png "Twitter result")
 <!-- howitworksstop -->
 
 
