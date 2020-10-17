@@ -37,6 +37,8 @@ export default class GenerateLink extends Command {
   ]
 
   generateFacebookLink (url: string) {
+    this.log('Facebook App ID:', process.env.FACEBOOK_APP_ID)
+
     const encodedPayload = encodeURIComponent(url);
     return `${FACEBOOK_BASE}${encodedPayload}&display=page`;
   }

@@ -13,6 +13,8 @@ This is a CLI for generating URLs for sharing content on social media. If you ne
 
 # Menu
 <!-- toc -->
+* [Generate Social Sharing Link CLI](#generate-social-sharing-link-cli)
+* [Menu](#menu)
 * [How it works](#how-it-works)
 * [Usage](#usage)
 * [Commands](#commands)
@@ -41,6 +43,29 @@ Generate URL: https://twitter.com/intent/tweet?text=This%20is%20a%20great%20arti
 ![Twitter result](https://github.com/georgeperry1/generate-social-sharing-link/raw/main/assets/result.png "Twitter result")
 <!-- howitworksstop -->
 
+# Setting Facebook App ID
+In order to generate the Facebook link, you will need to create and set a Facebook App ID. to do this, follow these steps:
+
+## Step 1:
+Go to `https://developers.facebook.com/apps/` and click `Create App`. Once you've created it, copy the App ID.
+
+## Step 2:
+In the command line run the following command, but replacing `12345` with the copied app ID.
+
+### Linux:
+```sh-session
+export FACEBOOK_APP_ID=12345
+```
+
+### Windows:
+```sh-session
+set FACEBOOK_APP_ID=12345
+```
+
+Please note that this may not persist in your work space.
+
+## Step 3:
+Test by generateing the Facebook link and looking for the app ID in the URL.
 
 # Usage
 <!-- usage -->
@@ -49,7 +74,7 @@ $ npm install -g generate-social-sharing-link
 $ generate-social-sharing-link COMMAND
 running command...
 $ generate-social-sharing-link (-v|--version|version)
-generate-social-sharing-link/1.0.1 darwin-x64 node-v10.19.0
+generate-social-sharing-link/1.0.2 darwin-x64 node-v10.19.0
 $ generate-social-sharing-link --help [COMMAND]
 USAGE
   $ generate-social-sharing-link COMMAND
@@ -73,11 +98,11 @@ EXAMPLE
   $ generate-social-sharing-link generate-link
 ```
 
-_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v1.0.1/src/commands/generate-link.ts)_
+_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v1.0.2/src/commands/generate-link.ts)_
 
 ## `generate-social-sharing-link help [COMMAND]`
 
-Display help for generate-social-sharing-link
+display help for generate-social-sharing-link
 
 ```
 USAGE
