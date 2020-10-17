@@ -1,6 +1,8 @@
 import { Command } from '@oclif/command'
 
 const inquirer = require('inquirer');
+const copy = require('clipboardy');
+const chalk = require('chalk');
 
 const prompt = {
   getOptions: () =>
@@ -78,7 +80,10 @@ export default class GenerateLink extends Command {
 
       const generatedLink = this.generateLink(options);
 
-      return this.log(`Sharing link for ${options.platform}: ${generatedLink}`);
+      copy.writeSync(generatedLink);
+
+      this.log(chalk.green(`Sharing link for ${options.platform}: ${chalk.blue.underline.bold(generatedLink)}`));
+      return this.log(chalk.green('Link copied to clipboard!'))
     } catch (err) {
       this.error(err.message);
     }
