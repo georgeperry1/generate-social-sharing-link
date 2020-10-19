@@ -75,7 +75,7 @@ $ npm install -g generate-social-sharing-link
 $ generate-social-sharing-link COMMAND
 running command...
 $ generate-social-sharing-link (-v|--version|version)
-generate-social-sharing-link/1.1.0 darwin-x64 node-v10.19.0
+generate-social-sharing-link/1.2.0 darwin-x64 node-v10.19.0
 $ generate-social-sharing-link --help [COMMAND]
 USAGE
   $ generate-social-sharing-link COMMAND
@@ -99,7 +99,7 @@ EXAMPLE
   $ generate-social-sharing-link generate-link
 ```
 
-_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v1.1.0/src/commands/generate-link.ts)_
+_See code: [src/commands/generate-link.ts](https://github.com/georgeperry1/generate-social-sharing-link/blob/v1.2.0/src/commands/generate-link.ts)_
 
 ## `generate-social-sharing-link help [COMMAND]`
 

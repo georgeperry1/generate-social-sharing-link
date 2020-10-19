@@ -29,7 +29,7 @@ const prompt = {
 
 const FACEBOOK_BASE = `https://www.facebook.com/v5.0/dialog/share?app_id=${process.env.FACEBOOK_APP_ID}&href=`;
 const TWITTER_BASE = 'https://twitter.com/intent/tweet?text=';
-const LINKEDIN_BASE = 'https://www.linkedin.com/sharing/share-offsite/?url=';
+const LINKEDIN_BASE = 'https://www.linkedin.com/sharing/share-offsite?url=';
 
 export default class GenerateLink extends Command {
   static description = 'Generate a URL to share on social media'
